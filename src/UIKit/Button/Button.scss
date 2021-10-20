@@ -1,0 +1,13 @@
+.btn-default {
+    height: 45px;
+    color: white;
+    border-radius: 12px;
+    background: rgb(53, 53, 226);
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+
+    &:disabled {
+        background: rgb(77, 77, 247);
+    }
+}
